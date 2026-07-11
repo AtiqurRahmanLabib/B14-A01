@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: "Open Sans", sans-serif;
 }
 
 .common-btn {
@@ -86,6 +87,7 @@
     margin: 30px auto;
     padding: 30px;
 }
+
 .speakers {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -127,5 +129,122 @@
 .speaker-details {
     padding-left: 5px;
     margin-top: 30px;
-    margin-left: 20px ; 
+    margin-left: 20px;
+}
+
+.Spot-section {
+    max-width: 1440px;
+    margin: 50px auto;
+}
+
+.spot-title {
+    font-weight: bold;
+    font-size: 48px;
+    color: #0D1B2A;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.spot-alert {
+    color: #575757;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.standard-card {
+    width: 370px;
+    height: 444px;
+    border-radius: 12px;
+    border: 1px solid #E5E7EB;
+}
+
+.pricing-cards ul li {
+    color: #333339;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 8px;
+}
+
+.price {
+    color: #0D1B2A;
+    font-size: 44px;
+    font-weight: bold;
+}
+
+hr {
+    color: #E5E7EB;
+    width: 304px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.pricing-cards {
+    border: 1px solid #E5E7EB;
+    width: 369px;
+    height: 444px;
+    border-radius: 12px;
+    padding: 20px 0px 10px 40px;
+
+}
+
+.card-name {
+    color: #888888;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.spots-container {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.pro {
+    background-color: #0D1B2A;
+    color: white;
+}
+
+.pro ul li {
+    color: white;
+}
+
+.pro-card-name {
+    color: #93C5FD;
+}
+
+.buy-btn {
+    width: 304px;
+    height: 43px;
+    background-color: #2563EB;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14;
+    margin-top: 15px;
+}
+
+.Standard-btn {
+    width: 304px;
+    height: 43px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    border: 2px solid #2563EB;
+    color: #2563EB;
+    font-size: 14;
+    margin-top: 15px;
+}
+.contact-btn {
+    width: 304px;
+    height: 43px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    border: 2px solid #0D1B2A;
+    color: #0D1B2A;
+    font-size: 14;
+    margin-top: 15px;
 }
